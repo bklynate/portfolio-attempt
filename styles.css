@@ -18,6 +18,11 @@ h3,h5 {
 img {
   width: 100%;
 }
+
+.jumbtotron {
+  text-align: center;
+  padding: 400px 400px 400px 400px;
+}
 .section {
   padding: 50px 100px 50px 100px;
   font-family: 'Raleway', sans-serif;
@@ -38,7 +43,7 @@ img {
 }
 
 footer p {
-  font-size: 15px;
+  font-size: 10px;
 }
 
 
