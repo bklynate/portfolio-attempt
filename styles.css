@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #95a5a6;
+}
+
+h1,h3,h5 {
+  font-size: 60px;
+}
+
+img {
+  width: 100%;
+}
+.section {
+  padding: 50px 100px 50px 100px;
+  font-family: 'Raleway', sans-serif;
+  height: 675px;
+  background-color: ;
+}
+
+#main {
+  padding-top: 300px;
+  text-align: center;
+}
+.main_content {
+  text-align: center;
+}
+
+.main_body {
+  padding-top: 200px;
+  border-style: solid;
+}
+
+
+.final_body {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  border-style: solid;
+  margin-bottom: 100px;
+}
+
+.main_content_text {
+  font-size: 35px;
+}
+
+.list-text {
+  color: gray;
+  font-size: 15px;
+  list-style: none;
+}
+
+p {
+  font-size: 20px;
+}
+
+.navbar{
+  color: white;
+  background-color: white;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+.btn, a:hover {
+  padding-top: 10px;
+  color: black;
+  text-decoration: none !important;
+}
+
+/*Css for the video*/
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+
+.video-container .title-container {
+    z-index: 1000;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
