@@ -1,4 +1,4 @@
 # portfolio-attempt
 My attempt at making a portfolio
 
-Deployed to Bklynate.herokuapp.com
+Deployed to http://bklynate.herokuapp.com/
